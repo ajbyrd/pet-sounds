@@ -16,13 +16,19 @@ adamPet = {
     },
     favoriteToys: [],
     play: function(toy) {
-        if (toy = "ball")
+        if (toy.includes("ball"))
         this.favoriteToys.push(toy)
     }
 }
 
 /* adamPet.hunt(); */
 
-adamPet.play("ball")
+adamPet.play("light-up ball")
+
+adamPet.play("tennis ball")
+
+adamPet.play("stick")
+
+adamPet.play("racquet ball")
 
 console.log(adamPet.favoriteToys)
