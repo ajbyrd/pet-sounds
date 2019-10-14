@@ -13,7 +13,16 @@ adamPet = {
     },
     down: function () {
         window.alert("lay down")
+    },
+    favoriteToys: [],
+    play: function(toy) {
+        if (toy = "ball")
+        this.favoriteToys.push(toy)
     }
 }
 
-adamPet.hunt();
+/* adamPet.hunt(); */
+
+adamPet.play("ball")
+
+console.log(adamPet.favoriteToys)
